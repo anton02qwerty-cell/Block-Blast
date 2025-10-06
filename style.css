@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body {
+    width: 100vw;
+
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    /*background: url('block.jpg');*/
+    /*max-width: 1920px;*/
+}
+
+
+
+.glav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 47vw;
+    margin-top: 5vh;
+    width: 7vw;
+    height: 7vh;
+    border-radius: 1.5vw;
+    font-size: 1vw;
+    border: none;
+
+}
+
+.glav:hover {
+    cursor: pointer;
+}
+
+.block {
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    font-size: 3vw;
+    color: white;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 800;
+    /*font-size: 128px;*/
+    line-height: 161px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.blast {
+
+
+    background: linear-gradient(270deg, #1ECDFF 0%, #B55EFF 85.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.crown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10vh;
+}
+
+
+.golo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-family: 'Fira Sans';
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 20vw;
+}
+.stolbik {
+
+    
+    box-sizing: border-box;
+
+
+    width: 10vw;
+    height: 10vw;
+    margin-left: 25vw;
+    margin-bottom: 5vw;
+
+    background: #080C14;
+    border: 1px solid #46556B;
+    border-radius: 2vw;
+
+
+}
+
+.stolbik2 {
+    
+
+    box-sizing: border-box;
+
+
+    width: 10vw;
+    height: 10vw;
+
+    margin-bottom: 5vw;
+    background: #080C14;
+    border: 1px solid #46556B;
+    border-radius: 2vw;
+
+
+}
+
+.stolbik3 {
+    
+
+
+    box-sizing: border-box;
+
+
+    width: 10vw;
+    height: 10vw;
+    margin-right: 20vw;
+    
+    margin-bottom: 5vw;
+    background: #080C14;
+    border: 1px solid #46556B;
+    border-radius: 2vw;
+
+
+}
+
+.nix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.kvad {
+    /* Rectangle 11 */
+
+
+
+
+    width: 1.5vw;
+    height: 1.5vw;
+    
+
+    background: #1ECDFF;
+    border-radius: 4px;
+
+}
+
+.kvad2 {
+    
+}
+
+.kvad3 {
+    
+}
