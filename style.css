@@ -26,7 +26,72 @@ body {
     font-size: 1vw;
     border: none;
 
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+
+    right: 2%;
+    bottom: 2%;
+    box-shadow: none;
+    line-height: 42px;
+    -webkit-perspective: 230px;
+    perspective: 20%;
+  
 }
+.glav span {
+    background: rgb(0,172,238);
+    
+    display: block;
+    position: absolute;
+    width: 7vw;
+    height: 7vh;
+    
+    border-radius: 5px;
+    margin:0;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.glav span:nth-child(1) {
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transform-origin: 50% 50% -20px;
+    -moz-transform-origin: 50% 50% -20px;
+    transform-origin: 50% 50% -20px;
+}
+.glav span:nth-child(2) {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: 50% 50% -20px;
+    -moz-transform-origin: 50% 50% -20px;
+    transform-origin: 50% 50% -20px;
+}
+.glav:hover span:nth-child(1) {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    perspective: 0%;
+}
+.glav:hover span:nth-child(2) {
+    color: transparent;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    perspective: 0%;
+}
+
+
+
 
 .glav:hover {
     cursor: pointer;
@@ -162,12 +227,4 @@ body {
     background: #1ECDFF;
     border-radius: 4px;
 
-}
-
-.kvad2 {
-    
-}
-
-.kvad3 {
-    
 }
